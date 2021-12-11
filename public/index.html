@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <style>
+      html {
+        background-color: #e0e8ff;
+      }
+      div#background {
+        background: linear-gradient(#e0e8ff, #dbffef);
+        position: fixed;
+        left:0;
+        top:0;
+        bottom:0;
+        right:0;
+        z-index: -1;
+      }
       body {
         margin: 0;
         height: 100vh;
@@ -12,13 +24,13 @@
         height:-webkit-fill-available;
         display: grid;
         place-items: center;
-        background: linear-gradient(#e0e8ff, #dbffef);
         font-family: sans-serif;
       }
     </style>
     <title>Stephen Janrei</title>
   </head>
   <body>
+    <div id="background"></div>
     <h1>Coming Soon</h2>
   </body>
 </html>
